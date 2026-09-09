@@ -1,0 +1,7 @@
+<? 
+$nome_cliente="Giovanna Medeiros Medrado Ferreira";
+echo "Clienmte". ltrim($nome_cliente);
+echo "<br>";
+$nome_cliente2 = "Isadora Musk";
+echo "Cliente" . rtrim($nome_cliente2);
+?>
