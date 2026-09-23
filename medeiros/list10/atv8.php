@@ -2,7 +2,7 @@
 
 $nome = "ana ZuRdo OlIvEIRA";
 
-$nome = strtroupper($nome);
+$nome = strtoupper($nome);
 
 echo $nome;
 
