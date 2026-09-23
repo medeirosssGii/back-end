@@ -1,11 +1,9 @@
 <?php
-$senhacorreta = "1234";
-$senha= "1111";
-$tentativas=0;
-while($tentativas < 3){
-    echo "Tentativa ", 
-    $tentativas + 1, ": senha incorreta!<br>";
-    $tentativas = $tentativas+1;
-}
-echo "acesso bloqueado";
+$email = $_POST['email'];
+$senha = $_POST['senha'];
+if($email == "giovanna.f@edu.senai.br" && $senha == 12345678){
+        echo "login bem sucedido!";
+    }else{
+        echo "login ou senha incorreto!";
+    }
 ?>
